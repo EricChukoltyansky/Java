@@ -1,0 +1,15 @@
+1. To create a new Object in the database, you need to create a new instance of the Object class and 
+set the properties of the Object. For example, to create a new Object of the type "Person" with the 
+name "John Doe", you would do the following:
+
+Person person = new Person();
+
+person.setName("John Doe");
+
+2. The address of the object is assigned to a variable in the stack. The object is created in the heap.
+
+3. If only a variable is created, the variable is assigned a null value. The object is not created.
+
+4. If an object is created without assigning it to a variable, it is automatically destroyed
+ by the garbage collector.
+
